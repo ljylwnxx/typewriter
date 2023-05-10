@@ -7,7 +7,7 @@ export default defineComponent({
     /** 打字速度，以每一步之间的毫秒数为单位 */
     speed: {
       type: Number,
-      default: 200,
+      default: 180,
     },
     values: {
       type: Array,
