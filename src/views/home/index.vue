@@ -3,13 +3,16 @@
     <img src="@/assets/background.jpg" class="index-img">
   </div>
   <div class="index-title">
-        <span>👏</span>
+        <h2 class="outline-none">
+            <TypeIt :values="title" :cursor="false" :speed="150" />
+        </h2>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useRouter } from 'vue-router'
-const router = useRouter()
+import TypeIt from '@/components/typeit'
+
+const title = ["hello world!", "good morning"]
 </script>
 
 <style scoped>
@@ -28,7 +31,7 @@ const router = useRouter()
     transition: all 0.4s ease-in-out;
     z-index: -9;
 }
-.index-title span{
+.index-title h2{
   width: 100%;
   margin: 0 auto;
   color: #fff;

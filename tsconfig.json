@@ -12,10 +12,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
     "paths": {
       "@/*": ["./src/*"]
     },
+    "jsx": "preserve",
+    
  
 
     /* Linting */
