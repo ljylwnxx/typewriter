@@ -2,6 +2,9 @@
   <div class="frame">
     <img src="@/assets/background.jpg" class="index-img">
   </div>
+  <div class="index-title">
+        <span>👏</span>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -24,5 +27,14 @@ const router = useRouter()
     background-size: cover;
     transition: all 0.4s ease-in-out;
     z-index: -9;
+}
+.index-title span{
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 500px ;
+  left: 5px;
 }
 </style>
