@@ -11,7 +11,7 @@ export default defineComponent({
     },
     values: {
       type: Array,
-      defalut: [],
+      default: [],
     },
     className: {
       type: String,
