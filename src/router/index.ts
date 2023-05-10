@@ -12,11 +12,7 @@ const routes: RouteRecordRaw[] = [
                 meta: { title: '首页'},
             },
             ],
-    },
-    // {
-    //     path: '/index',
-    //     component: () => import('@/views/layout/index.vue'),
-    // }
+    }
 ]
 const router =createRouter({
     history: createWebHashHistory(),
